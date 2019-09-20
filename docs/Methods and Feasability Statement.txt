@@ -1,0 +1,21 @@
+﻿Elizabeth James
+KHC HC450
+Due: October 29, 2018
+Methods and Feasibility
+
+
+Methods: 
+
+
+Within my project, I will be creating a backend algorithm that matches the readers with writers, and then I will create an online platform that links to this algorithm in order to allow the users to interact with one another.
+        As far as the algorithm goes, I have been looking into using either Java or Python. While there are a multitude of languages that can be used for coding such algorithms, these are the two that I have the most practice with, and they are some of the most common languages to use as well. 
+        Beyond that, the implementation will be relatively simple with the vision I currently have. It will allow each user to include preferences of genres (historical fiction, romance, horror, etc.), types (poetry, theatrical script, short story, etc.), length, and so on. They will also be allowed to put the strength of their likes and dislikes, so if someone really dislikes horror or really loves poetry specifically, they can include that as well.
+        As I get more into the program, I am considering developing a rating system, in which writers can rank the feedback or readers in order to maintain a high level of quality of feedback. If possible, I would also like to develop other aspects in the website, such as a random prompt generator or a discussion board where writers can share their experiences on how to deal with writer's block or how to manage their time. 
+
+
+Feasibility:
+        As with any project, there are circumstances that make it so that the project may be difficult to create. 
+First of all, I have never made a website before. I have written algorithms, but matching them with a front end website will be new for me. However, I have many resources to help with this and have faith that I will be able to get the website up and running.
+The next aspect in question is time. As we will be doing the majority of our project within our senior year- while we are also taking other classes and searching for jobs- it can be difficult to have good time management. However, I have already begun making a calendar and will try to work on portions of my project before my senior year in order to stay on schedule with where I want to be.
+Additionally, finding members willing to try out my project may be difficult. One good group I could ask to be involved is the writing corridor that is being reinstated within Kilachand, so hopefully that will at least give me a starting point to find participants. I will also ask friends and Writer’s Workshop- the creative writing group here on campus- if they will be willing to participate. 
+Finally, I will need to work with safety precautions. I will be having to take contact information from users- most likely emails- in order to make their accounts and be able to give them the feedback they requested. I need to make sure to keep this information secure. Additionally, I will need to take precautions for the safety of the writing. As these are intended to be early drafts, they will likely not have legal ownership such as copyrights. It is intellectual property, however people stealing the work of others could be possible as they will have access to one another’s writings. In order to combat this, I will make sure to include as much information as possible to give to both readers and writers about the legality behind intellectual property laws.

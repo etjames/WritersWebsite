@@ -1,0 +1,10 @@
+﻿Elizabeth (Libby) James 
+KHC HC450
+Professor Preston
+Due: December 15, 2018
+
+
+Keystone Prospectus: Writer’s Website
+
+
+How do I get feedback on my writing? A common question I  have heard from many of my peers, and even asked myself. In my project, I am aiming to create an online space where writers can put their voice into the world for the first time. I would like to make it so that new writers are able to get anonymous feedback from their peers. I would like to do so as studies have shown both that readers are more willing to give critiques when they know they will be given anonymously, and that many young adults agree that online formats are the best way to give feedback. The writers and willing readers will create profiles and rank preferences of topics and types of writing. I will create a back end algorithm that will match writers with readers who seem to have compatible interests. I am planning to use Python to do so, with the aid of open-sourced code and resources such as Flask, MongoDB, Ruby on Rails, BoTree, and Django. Once the piece of writing is passed onto the reader, it is then up to the users to generate the feedback, which will then be delivered anonymously in hopes of helping the writer improve their piece. In doing so, I hope to create a reading and writing community that allows even the most timid of writers to put their works on display.

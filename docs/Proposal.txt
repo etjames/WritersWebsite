@@ -1,0 +1,114 @@
+﻿Elizabeth (Libby) James 
+KHC HC450
+Professor Preston
+Final Draft Due: December 15, 2018
+
+
+Keystone Proposal: Writer’s Website
+
+
+Abstract: 
+
+
+How do I get feedback on my writing? A common question I  have heard from many of my peers, and even asked myself. In my project, I am aiming to create an online space where writers can put their voice into the world for the first time. I would like to make it so that new writers are able to get anonymous feedback from their peers. The writers and willing readers will create profiles and rank preferences of topics and types of writing. I will create a back end algorithm that will match writers with readers who seem to have compatible interests. It is then up to the users to generate the feedback, which will then be delivered anonymously in hopes of helping the writer improve their piece. In doing so, I hope to create a reading and writing community that allows even the most timid of writers to put their works on display. 
+
+
+Introduction:
+
+
+How do I get feedback on my writing? A common question I  have heard from many of my peers, and even asked myself. Many of us struggle to give pieces of creative writing - short stories, poetry, personal narratives, etc.- to friends as we are afraid of being judged by someone we know. Within my project, I would love to see how I could creatively implement something that would help more writers put their writing into the world.
+ The way I see to do this is through anonymous feedback, and I would love to give that option to people. Knowing someone who is willing to read your piece and let you know what they think is something all writers are grateful for, and I want to provide even the most timid of writers with a way to do that.
+As it is anonymous, these interactions cannot be done in person. Thus, I thought to move online, as we live in such a technologically-driven world anyways. I want to explore if a website is sufficient in both engaging young writers and in getting anonymous feedback. In order for my project to work, I will need writers willing to put their writing out there as well as readers to be willing to read and give feedback.
+If I am able to do so, I hope to create a reading and writing community to help young writers put their voices out into the world. 
+
+
+Background/ Lit Review:
+
+
+It is well known among writers that the hardest read to give your work over to is the first read. It can be especially difficult if you don’t have someone to turn to that you feel you can trust with your work. This is where anonymous feedback can come in handy. 
+Within the world of anonymous feedback, there is already much information about how it can be beneficial. The article Withholding Negative Feedback: Is It about Protecting the Self or Protecting Others? explores how people are more likely to give critical feedback when giving it anonymously, and are much more reluctant to give any negative feedback when in a direct situation. The study was done on undergraduate students, providing them with an essay. They had three groups for feedback: one that gave the feedback face to face, one that was told their feedback would be given anonymously, and one that was told their feedback would not be given at all. This article showed that people are unlikely to give constructive criticism when they know the feedback will be drawn back to them, and that people are more willing to give pointers when they are giving feedback anonymously. Within my creation, I will use anonymity to create an environment where truthful feedback can prosper.
+The article Direct vs. Anonymous Feedback: Teacher Behavior in Higher Education, with Focus on Technology Advances also looked into anonymous feedback, specifically asking the question do people take anonymous feedback and apply it? The study used students and their feedback to teachers to show how people give and receive anonymous critiques. The study found that those receiving the anonymous feedback did actively try to make changes in relation to the feedback. It compared those those who received anonymous feedback to those who received only direct feedback, noting that those asking for direct feedback got less comments at all, especially constructive ones, as people are still more hesitant to share critiques if they can be connected back to themselves. This article also showed that the students prefered online platforms as a way to interact and provide feedback, showing that technology is an important step in learning in today’s digital age. Another discovery by the article was that feedback was most optimal when there were guidelines built by neither the feedback giver or receiver, but instead by an independent third party. Within the product I am hoping to create, I will be providing these key questions by a third party, and I will be utilizing an online platform in hopes of engaging students. Additionally, it is helpful to know that this feedback is applied after its receival, so I know the readers’ work in providing feedback will make an impact.
+The article Plugging In is another reason that I believe that my creation will help others, as it shows teens find importance in interacting with youth-generated websites- an example of such would be The Odyssey Online or Her Campus. They found that students ranked the importance of these websites in 5 categories: self-expression, peer support, school attachment, pop culture, and diversity. These are all things I would hope to bring with my website. Participants in this study most commonly cited self-expression as the reason for being drawn to these websites, even providing examples that it supported their “love for writing”- though this was more focused on article writing rather than creative writing. This article provided a  lot of support for the fact that websites are a good way for teens to explore their own passion for writing as well as provide peer support to other writers.
+
+
+Description of Similar Previous Projects & What new services I hope to provide:
+
+
+With all this being said, it is obvious that I am not the first person to explore giving feedback to writers via online platforms. One example of where this has already been done is Wattpad. Wattpad has expansive genre & language options, similar to things I want to include in my project. However, I also want more options, like limiting genres (declaring a reader would like no horror, no history, etc.), as well as options for a work to be marked as poetry, a script, a personal narrative/autobiography, and more. It does include the different copyright options, which is incredibly important, however it also does not allow users to make their stories available on any level less than public. In a quote taken from their website, “Your stories are, by default, public. There is no way to make them private.” (Wattpad). Personally, I want readers to be able to choose if they want it to be public, or if they’d like to send their work out to just one person. It’s different offering up your writing to get feedback from any one particular reader (or even a small group) than it is to publish it for anybody with access to the internet to see. Additionally, the feedback given on Wattpad is more similar to commenting on facebook or instagram, things like “the last part is me” or “Yes. Coffee has saved me in many situations” (examples taken from story titled The Hoodie Girl on Wattpad). This likely has to do with the fact that Wattpad has been a growing center for fanfiction, making it hard for writers to be taken seriously. Personally, I want the feedback to more be about ways the story can be improved, or when it is supportive, about how the writing influenced the person to feel a certain way, similar to the type of feedback you get in a writers workshop. 
+        Another option of giving feedback to writers is Goodreads, however it is really only for reading the stories of and giving feedback to already published writers. I want my community to be for up and coming writers, who have the ability to post drafts rather than completely finished works. Additionally, I would like to make the feedback process different as well; no longer writing a review of whether or not others should read it. Instead, I would like readers to be giving feedback as to how to improve the writing to make it a more enjoyable read for everyone. Additionally, on Goodreads, authors and users can’t really be anonymous; while they could use a fake name, they need some sort of identifier.
+        A more workshop based example for writers is Grub Street. Grub Street is Boston based, however I would like my audience to be comprised of people interacting from all around the world. The workshops held by Grub Street are in person rather than online, taking away the possibility of anonymity. While you may not know the person at the start of the process, you still interact with them and see their face, meaning your work and feedback can be linked back to yourself. While they do have an online portion, it is still class based, creating a classroom of students who know one another, and there is no way of guaranteeing another member in the class wants to read what you want to write. Additionally, the large majority of online classes cost money, and I want my platform to be free.
+        Other examples of classes are Gotham Writers and The Writer’s Studio Online. While these options to have more choices in terms of type of writing - script writing, memoirs, novels, etc. - they are both heavily focused on it being a ‘school’ with ‘students’ rather than a community. I personally am not aiming for a student/teacher relationship, but a community of readers and writers. Additionally, both of these options include many limitations if you are not an on-site student, and I would like my users to be able to do everything online. Payment continues to come into play with these classes.
+        Another way of getting feedback, if you do not want a class but merely a single reader, as I am suggesting, is through Write by Night. However, the readers are staff, not other community members. Users must pay for the feedback of the staff, which takes away the community aspect that I am looking for. This particular example is more for people who want to hire a professional editor, where I want to offer a way to ease new writers into the world of receiving and giving feedback. 
+        A non-classroom approach I looked into is the Writers Room of Boston. However, it is more a physical space to write rather than a way to get feedback- though I’m sure you could. I personally want my main focus to be on feedback, and the extras - writing prompts, community boards, etc. - to be just that, extras. Additionally, the space is only set up for four people, and all need to be here in Boston. I want to reach a large community, where readers and writers can interact with one another regardless of distance. 
+
+
+Rationale:
+
+
+I am looking forward to creating this product as it is something I know that I want and would use as a writer myself. I want to create this product as it can be really difficult to put your voice and writing out there to the world without a first opinion; however, the first opinion is often the hardest to get. Additionally, anonymous feedback, as shown in the studies mentioned above, is often even more honest- and therefore more helpful- than feedback given by friends and family. 
+While there are many other resources out there, none are what I personally am looking to create. Many of the examples I gave above, which are representative of most of the resources I have found, have a very heavy focused on short stories or novels, and have less inclusion of scripts, poetry, autobiographical writing, and more that I want to add. Additionally, most commonly the way to get feedback is through classes, not communities, such as Gotham Writers, The Writer’s Studio Online, and more. I don’t want that focus on ‘teacher’ and ‘student’, nor do I want my users to have to pay.  And finally, there is little to no method to matching readers and writers in any of the currently available sites. There are certain situations, such as Write by Night, in which you can choose who you want to be your editor, but it is fully based upon if you want a book, manuscript, or another type of writing, and not the content of that writing. Also, it needs to be one of the professionals they provide, and must be purchased. 
+Not with this nor any other examples I have listed is there a matching algorithm. I believe this algorithm is important as it gets the most accurate feedback to the writers as the reader will be within the demographic they are aiming for. It is possible without an algorithm to get poor reviews on a short story about a wedding proposal because your reader does like romance. I want to better match writers with their demographic so that the feedback is helpful, not a representation of a reader disliking the genre they are given.
+
+
+Method/Design:
+
+
+In my project, I will be creating a backend algorithm that matches readers with writers, and then I will create an online platform that links to this algorithm in order to allow the users to interact with one another.
+As far as the algorithm goes, I have been looking into using  Python. While there are a multitude of languages that can be used for coding such algorithms, this is one that I have the most practice with, and it is one of the most common languages used as well. Python is also helpful as there are many open-source code creations that are free and aid with the creation of websites. While I have not decided upon one just yet, I am looking into Flask, MongoDB, Ruby on Rails, BoTree, and Django. Many of these can be used in connection with one another, so I will likely end up using a combination of the above. Many of these options also help with the hosting of the website as well. 
+Beyond that, the implementation will be relatively simple with the vision I currently have. It will allow each user to include preferences of genres (historical fiction, romance, horror, etc.), types (poetry, theatrical script, short story, etc.), length, and so on. The users will also be allowed to put the strength of their likes and dislikes, so if someone really dislikes horror or really loves poetry specifically, they can include that as well. They will have login information, tied to their email, that allows them to access and update these preferences whenever they like. 
+Additionally, there will be side bars to navigate the site. On the left side, it will include the different tabs of actions the writers and readers can take: upload a piece, read a piece, get a writing prompt, and so on. On the other side, the bar will pop up where the writers can include specific requests to the readers, and where the readers can respond to these requests. These questions could range in topic as stories vary, but it may be something such as ‘could you pay special attention to my dialogue?’, or ‘what would you think if this story was instead set on a boat?’.
+As I get more into the program, I am considering developing a rating system, in which writers can rank the feedback of readers in order to maintain a high level of quality of feedback. If possible, I would also like to develop other aspects in the website, such as a random character name generator or a discussion board where writers can share their experiences on how to deal with writer's block or how to manage their time.
+As with any project, there are circumstances that would pose challenges of feasibility. First of all, I have never made a website before. I have written algorithms, but matching them with a front end website will be new for me. The most difficult part will likely be making sure that the layout is intuitive to the user, as I have not encountered this struggle before. However, I have many resources to help with this and have faith that I will be able to get the website up and running.
+The next aspect in question is time. As we will be doing the majority of our project within our senior year- while we are also taking other classes and searching for jobs- it can be difficult to have good time management. However, I have already begun making a calendar and will try to work on portions of my project before my senior year in order to stay on schedule with where I want to be.
+ I would like to begin to work on the backend algorithm before heading into senior year, using both Spring and Summer of 2019 in order to do so. In the early months of senior year, I would like to work on pairing the back end algorithm I create with a front end website. Around November, I would ideally have a test site available that writers could begin to use. I would ideally like the test period to run through January so that it includes winter break, as I know from being a college student myself, sometimes the only time you can find to write is while classes are not in session. Then, I could use the entirety of Spring Semester, starting when we get back to campus in January, to make alterations to the website based on the feedback I receive.
+Finding users willing to try out my project may be difficult. One good group I could ask to be involved is the writing corridor that is being reinstated within Kilachand, so hopefully that will at least give me a starting point to find participants. I will also ask Writer’s Workshop BU- the creative writing group here on campus- if they will be willing to participate. I can also ask family and friends to try to build a network of new writers interested in using my product.
+Finally, I will need to work with safety precautions. I will be having to take contact information from users- most likely emails- in order to make their accounts and be able to give them the feedback they requested. I need to make sure to keep this information secure. Additionally, I will need to take precautions for the safety of the writing. As these are intended to be early drafts, they will likely not have legal ownership such as copyrights. It is intellectual property, however people stealing the work of others could be possible as they will have access to one another’s writings. In order to combat this, I will make sure to include as much information as possible to give to both readers and writers about the legality behind intellectual property laws.
+
+
+Significance and Conclusion:
+
+
+The significance I am hoping will come about is that my product will help more writers get the feedback that they need. I believe this project could be especially helpful for more timid writers. It will hopefully take away a lot of the fear behind putting a piece of  writing out into the world, making it so that more creative works are released into the world in general. I hope to do so by creating an easier first stepping stone before jumping all the way to a professional editor or posting it for everyone to see. My product will create options for all different types of writers- poets, script writers, autobiographers, and more- so that even those writers who currently have less resources will have equal access to feedback. 
+
+
+Budget: 
+
+
+With the way I currently see my project, I will be using free resources, and therefore will not need to receive funding from Kilachand. I do not see a particular need to buy a domain name, as I would be happy to have my website hosted upon already existing base platforms. As I will be using python for the algorithm - along with interfaces free to the public and open-source creations- I should not need funds with how I see my project at this point. 
+
+
+________________
+
+
+References:
+
+
+Corelli, Angelo. “Direct vs. Anonymous Feedback: Teacher Behavior in Higher Education, 
+with Focus on Technology Advances.” Procedia - Social and Behavioral Sciences, vol. 195, 3 July 2015, pp. 52–61. ScienceDirect, doi:10.1016/j.sbspro.2015.06.329.
+
+
+“Goodreads.” Goodreads, Goodreads, www.goodreads.com/.
+
+
+“Gotham Writers Workshop.” Gotham Writers Workshop, www.writingclasses.com/.
+
+
+“GrubStreet: The Leading Creative Writing Programs and Writing Center.” Grub Street, 
+grubstreet.org/.
+
+
+Jeffries, Carla H., and Matthew J. Hornsey. “Withholding Negative Feedback: Is It about 
+Protecting the Self or Protecting Others?” British Journal of Social Psychology, vol. 51, no. 4, 2012, pp. 772–780. Wiley Online Library, doi:10.1111/j.2044-8309.2012.02098.x.
+
+
+Neely, Jeffrey C. “Plugging In.” Youth & Society, vol. 47, no. 4, Feb. 2013, pp. 565–585. Sage 
+Journals, doi:10.1177/0044118x13483776.
+
+
+“The Writers Studio.” The Writer's Studio Online, www.writersstudio.com/.
+
+
+“Wattpad.” Wattpad, www.wattpad.com/.
+
+
+“WriteByNight Writers' Service.” WriteByNight, www.writebynight.net/.

@@ -1,0 +1,55 @@
+﻿Elizabeth James
+KHC HC450
+
+
+Writers Website: Preliminary Research Questions and Annotated Bibliography
+
+
+Research Questions
+
+
+1. Do young writers take advice more readily from anonymous critiques and praises than from friends and family?
+        This question is worth asking as I have heard from many of my peers that they struggle to give pieces of creative writing - short stories, poetry, etc.- to friends as they are afraid of being judged by someone they know. I would love to see how I could creatively implement something that would help more writers get their writing out there, and if anonymous feedback is one way to do that I would love to give that option to people. In order to research this, I will look specifically into feedback and responses, looking at papers mainly from the field of psychology.
+
+
+1. Is a social-media style website the best way to engage young writers?
+This question is important as if I am creating a website, I need to know it will be a good way to engage my target audience, whom I am currently thinking of as being in high school and college. If this is not the optimal way to engage my audience, I will need to alter my creative idea to engage my audience better. In order to research this, I will look into previous studies done on engagement and websites, specifically with the target audience of college or high school students.
+
+
+1. Is a website a sufficient way to get anonymous feedback?
+A final question that I need to look into is the bridge between my first two questions: is a website a sufficient way to get anonymous feedback? Even if I know that a website is a good way to engage my audience and that anonymous feedback will help young writers, I need to know that there will also be people willing to anonymously give feedback. The way that I plan to go about researching this is to see how likely it is for people to give feedback if they are not being held accountable for it. In order for my project to work, I would both need writers willing to put their writing out there as well as readers to be willing to read and give feedback.
+________________
+Annotated Bibliography
+
+
+Source #1:
+
+
+Jeffries, Carla H., and Matthew J. Hornsey. “Withholding Negative Feedback: Is It about 
+Protecting the Self or Protecting Others?” British Journal of Social Psychology, vol. 51, 
+no. 4, 2012, pp. 772–780. Wiley Online Library, doi:10.1111/j.2044-8309.2012.02098.x.
+
+
+This work discusses how people are more likely to give critical feedback when giving it anonymously, and much more reluctant to give any negative feedback when in a direct situation. This study was done on undergraduate students, which fits my target age range, and the feedback was given on a piece of writing, specifically an essay. They had three groups for feedback: one that gave the feedback face to face, one that was told their feedback would be given anonymously, and one that was told their feedback would not be given at all. This research is important to my work as it shows that people are unlikely to give constructive criticism when they know the feedback will be drawn back to them, and that people are more willing to give pointers when they are giving feedback anonymously. This will specifically help with my first and third targeted research question, as it shows people are more willing to give feedback themselves when they are anonymous, and that it may be more helpful as they are more truthful when it is anonymous as well.
+
+
+
+
+Source #2:
+
+
+Corelli, Angelo. “Direct vs. Anonymous Feedback: Teacher Behavior in Higher Education, with 
+Focus on Technology Advances.” Procedia - Social and Behavioral Sciences, vol. 195, 3 July 2015, pp. 52–61. ScienceDirect, doi:10.1016/j.sbspro.2015.06.329.
+
+
+        This work discusses two points related to my project: 1) Do people take anonymous feedback and apply it? 2) Do students prefer online platforms? This study used students and their feedback to teachers to study these two points. The study found that those receiving the anonymous feedback did actively try to make changes in relation to the feedback, and it also found that technology is an important step in learning in today’s digital age. While the feedback receivers were teachers, it did compare those who receive anonymous feedback to those who receive only direct feedback, which is extremely helpful to what I am researching. It also found another aspect that will be important in implementing my website: it was most optimal when key questions were built by neither the feedback giver or receiver. Overall, this article applies to what I am looking for in many ways.
+
+
+Source #3:
+
+
+Neely, Jeffrey C. “Plugging In.” Youth & Society, vol. 47, no. 4, Feb. 2013, pp. 565–585. Sage 
+Journals, doi:10.1177/0044118x13483776.
+
+
+This article is incredibly useful to me as it specifically focuses in on how teens interact with youth-generated websites. They found that students ranked the importance of these websites in 5 categories: self-expression, peer support, school attachment, pop culture, and diversity. These are all things I would hope to bring with my website. Participants in this study most commonly cited self-expression as the reason for being drawn to these websites, even providing examples that it supported their “love for writing”- though this was more focused on article writing rather than creative writing. While this article did focus more on opinion article writers, it did provide a lot of support for the fact that websites are a good way for teens to explore their own passion for writing as well as provide peer support to other writers.
