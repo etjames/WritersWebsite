@@ -1,7 +1,27 @@
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
 
+from django.forms import ModelForm
+
 # Create your models here.
+class Genre(models.Model):
+	name = models.CharField(max_length=128)
+
+	def __str__(self):
+		return self.name
+
+class WritingType(models.Model):
+	name = models.CharField(max_length=128)
+
+	def __str__(self):
+		return self.name	
+
+class Theme(models.Model):
+	name = models.CharField(max_length=128)
+
+	def __str__(self):
+		return self.name
+
 class Submission(models.Model):
 	# info about the submission
 	author_name = models.CharField(max_length=128)
@@ -21,36 +41,13 @@ class Submission(models.Model):
 
 	message_to_reader = models.TextField()
 
-class WritingTypes(models.Model):
-	submission = models.ForeignKey(Submission, on_delete=models.CASCADE)
-
-	WRITING_TYPES = (
-		('poetry', 'Poetry'),
-		('scripts', 'Scripts'),
-		('longform', 'Long Form'),
-	)
-	writing_type = models.CharField(max_length=10, choices=WRITING_TYPES)
+	genres = models.ManyToManyField(Genre, blank=True)
+	writing_types = models.ManyToManyField(WritingType, blank=True)
+	themes = models.ManyToManyField(Theme, blank=True)
 
 
-class Genres(models.Model):
-	submission = models.ForeignKey(Submission, on_delete=models.CASCADE)
-
-	GENRES = (
-		('horror', 'Horror'),
-		('romance', 'Romance'),
-		('comedy', 'Comedy'),
-		('action', 'Action'),
-		('legal', 'Legal'),
-	)
-	genres = models.CharField(max_length=10, choices=GENRES)
-
-
-class Themes(models.Model):
-	submission = models.ForeignKey(Submission, on_delete=models.CASCADE)
-
-	THEMES = (
-		('lgbtq', "LGBTQ+"),
-		('color', "Being a person of color"),
-		('family', "Family"),
-	)
-	themes = models.CharField(max_length=10, choices=THEMES)
+class SubmissionForm(ModelForm):
+	class Meta:
+		model = Submission
+		# fields = ['author', 'title', 'content', 'review_time', 'message_to_reader']
+		fields = '__all__'

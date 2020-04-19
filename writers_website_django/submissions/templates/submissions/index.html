@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'submissions/style.css' %}">
+
+{% if current_submission_list %}
+	<p>Your existing submissions</p>
+    <ul>
+    {% for submission in current_submission_list %}
+        <!-- <li><a href="/submissions/{{ submission.id }}/">{{ submission.title }}</a></li> -->
+        <li><a href="{% url 'submissions:detail' submission.id %}">{{ submission.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>You have no existing submissions</p>
+{% endif %}
+<a href="/submissions/new/">Add new submission</a>
+{% endblock %}
+
+
