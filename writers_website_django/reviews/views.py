@@ -21,7 +21,10 @@ def matches(request):
     preferences = Preference.objects.filter(user=request.user).first()
 
     submissions = Submission.objects.exclude(author=request.user)
-    submissions = submissions.filter(review_time=preferences.review_time)     
+    submissions = submissions.filter(review_time=preferences.review_time)
+    submissions = submissions.filter(genre__in=preferences.genres.all())
+    submissions = submissions.filter(theme__in=preferences.themes.all())
+    submissions = submissions.filter(writing_type__in=preferences.writing_types.all())      
 
     context = {
         'submissions': submissions

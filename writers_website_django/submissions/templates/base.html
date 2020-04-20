@@ -25,11 +25,16 @@
       </div>
       <div>
         <a class="logout" href="{% url 'logout' %}">Log Out</a>
+        <a class="login" href="{% url 'login' %}">Log In</a>
       </div>
     </header>
     <div class="content">
       {% block content %}{% endblock %}
     </div>
-    <footer>Share some writings - Share your opinions</footer>
+    <footer>
+      <a class="home" href="{% url 'home' %}">Home</a> |
+      <a class="about" href="{% url 'about' %}">About</a> |
+      <a class="anonymousfeedback" href="{% url 'anonymousfeedback' %}">Anonymous Feedback</a> |
+      <a class="prompts" href="{% url 'prompts' %}">Prompts</a></footer>
   </body>
 </html>

@@ -23,13 +23,17 @@ from submissions import views as web_views
 
 urlpatterns = [
 	# Where does the homepage go
-	path('', views.login),
+	path('', views.home),
 	path('submissions/', include('submissions.urls')),
     path('preferences/', include('preferences.urls')),
     path('reviews/', include('reviews.urls')),
     url(r'^signup/$', web_views.signup, name='signup'),
     url(r'^login/$', views.login, name='login'),
     url(r'^logout/$', views.logout, name='logout'),
+    url(r'^home/$', views.home, name='home'),
+    url(r'^about/$', views.about, name='about'),
+    url(r'^prompts/$', views.prompts, name='prompts'),
+    url(r'^anonymousfeedback/$', views.anonymousfeedback, name='anonymousfeedback'),
     path('admin/', admin.site.urls)
     
 ]

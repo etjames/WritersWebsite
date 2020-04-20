@@ -42,9 +42,9 @@ class Submission(models.Model):
 
 	message_to_reader = models.TextField()
 
-	genres = models.ManyToManyField(Genre, blank=True)
-	writing_types = models.ManyToManyField(WritingType, blank=True)
-	themes = models.ManyToManyField(Theme, blank=True)
+	genre = models.ForeignKey(Genre, on_delete=models.CASCADE, default=1)
+	writing_type = models.ForeignKey(WritingType, on_delete=models.CASCADE, default=1)
+	theme = models.ForeignKey(Theme, on_delete=models.CASCADE, default=1)
 
 	author = models.ForeignKey(User, on_delete=models.CASCADE)
 

@@ -8,6 +8,18 @@ from django.contrib.auth.forms import UserCreationForm
 
 from django.contrib import messages
 
+def home(request):
+    return render(request, 'pages/home.html')
+
+def about(request):
+    return render(request, 'pages/about.html')
+
+def prompts(request):
+    return render(request, 'pages/prompts.html')
+
+def anonymousfeedback(request):
+    return render(request, 'pages/anonymousfeedback.html')
+
 
 def signup(request):
     if request.method == 'POST':

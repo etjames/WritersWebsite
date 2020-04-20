@@ -7,7 +7,7 @@ header,
 footer {
   position: fixed;
   width: 100%;
-  background-color: lightblue;
+  background-color: rgb(200, 218, 248);
   left: 0;
   padding-left: 0.5em;
 }
@@ -26,6 +26,11 @@ header .logout {
   color: darkblue;
   padding-right: 1em;
 }
+header .login{
+  color: darkblue;
+  padding-right: 1em;
+}
+
 header .menu a:before {
   font-family: "FontAwesome";
   padding-right: 0.5em;
@@ -46,10 +51,22 @@ header .logout {
   padding: 1em;
   padding-right: 2em;
 }
+header .login {
+  position: fixed;
+  right: 100;
+  top: 2em;
+  padding: 1em;
+  padding-right: 2em;
+}
 header .logout:after {
   font-family: "FontAwesome";
   padding-left: 0.5em;
   content: "\f2f5";
+}
+header .login:after {
+  font-family: "FontAwesome";
+  padding-left: 0.5em;
+  content: "\f2f6";
 }
 .content {
   padding-top: 70px;
@@ -76,4 +93,8 @@ form textarea[name="content"] {
 
 .actions {
   padding-top: 1em;
+}
+
+.center {
+  text-align: center;
 }
