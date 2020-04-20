@@ -2,6 +2,7 @@ from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
 
 from django.forms import ModelForm
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Genre(models.Model):
@@ -44,6 +45,8 @@ class Submission(models.Model):
 	genres = models.ManyToManyField(Genre, blank=True)
 	writing_types = models.ManyToManyField(WritingType, blank=True)
 	themes = models.ManyToManyField(Theme, blank=True)
+
+	author = models.ForeignKey(User, on_delete=models.CASCADE)
 
 
 class SubmissionForm(ModelForm):

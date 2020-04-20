@@ -1,6 +1,6 @@
-<form action="{% url 'preferences:edit' preferences.id %}" method="post">
+<form action="{% url 'user_preferences:edit' preferences.id %}" method="post">
 {% csrf_token %}
 {{ form }}
 <button type="submit">Submit</button>
-<a href="/preferences/">Back to Preferences without Updating Changes</a>
+<a href="/user_preferences/">Back to Preferences without Updating Changes</a>
 </form>

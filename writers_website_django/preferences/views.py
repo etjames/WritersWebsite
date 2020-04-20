@@ -9,4 +9,4 @@ def edit(request):
     context = {
         "preferences": preferences
     }
-    return render(request, 'preferences/edit.html')
+    return render(request, 'user_preferences/edit.html')

@@ -21,6 +21,7 @@ class Preference(models.Model):
 	genres = models.ManyToManyField(Genre, blank=True)
 	writing_types = models.ManyToManyField(WritingType, blank=True)
 	themes = models.ManyToManyField(Theme, blank=True)
+	user = models.ForeignKey(User, on_delete=models.CASCADE)
 
 class PreferenceForm(ModelForm):
 	class Meta:
