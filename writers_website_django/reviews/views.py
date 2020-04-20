@@ -6,6 +6,8 @@ from preferences.models import Preference
 
 # Create your views here.
 def list(request):
+    if request.user.is_authenticated == False:
+        return redirect('/login')
     reviews = Review.objects.filter(reviewer=request.user)
     context = {
         'reviews': reviews
@@ -14,6 +16,8 @@ def list(request):
 
 def matches(request):
     # Fetch user preferences
+    if request.user.is_authenticated == False:
+        return redirect('/login')
     preferences = Preference.objects.filter(user=request.user).first()
 
     submissions = Submission.objects.exclude(author=request.user)
@@ -26,6 +30,8 @@ def matches(request):
     return render(request, 'reviews/matches.html', context)
 
 def new(request, submission_id):
+    if request.user.is_authenticated == False:
+        return redirect('/login')
     submission = Submission.objects.get(pk=submission_id)
     review = Review.objects.filter(submission=submission).filter(reviewer=request.user).first()
     if review is None:
@@ -35,6 +41,8 @@ def new(request, submission_id):
     return redirect(f'/reviews/edit/{review.id}')
 
 def edit(request, review_id):
+    if request.user.is_authenticated == False:
+        return redirect('/login')
     review = Review.objects.get(pk=review_id)
     if request.method == 'GET':
         context = {

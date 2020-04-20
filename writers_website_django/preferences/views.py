@@ -4,6 +4,8 @@ from .models import Preference, PreferenceForm
 
 # Create your views here.
 def edit(request):
+    if request.user.is_authenticated == False:
+        return redirect('/login')
     preferences = Preference.objects.filter(user=request.user).first()
     if request.method == 'GET':
         context = {
