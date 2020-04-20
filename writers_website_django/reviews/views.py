@@ -20,6 +20,9 @@ def matches(request):
         return redirect('/login')
     preferences = Preference.objects.filter(user=request.user).first()
 
+    if preferences == None:
+        return redirect('/preferences')
+
     submissions = Submission.objects.exclude(author=request.user)
     submissions = submissions.filter(review_time=preferences.review_time)
     submissions = submissions.filter(genre__in=preferences.genres.all())

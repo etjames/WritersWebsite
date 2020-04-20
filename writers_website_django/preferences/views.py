@@ -7,6 +7,9 @@ def edit(request):
     if request.user.is_authenticated == False:
         return redirect('/login')
     preferences = Preference.objects.filter(user=request.user).first()
+    if preferences is None:
+        preferences = Preference()
+    preferences.user = request.user
     if request.method == 'GET':
         context = {
             'preferences': preferences,
@@ -17,7 +20,7 @@ def edit(request):
     elif request.method == 'POST':
         form_data = request.POST.copy()
         form_data['user'] = request.user
-        form_data['user_id'] = request.user.id
+        #form_data['user_id'] = request.user.id
         preference_form = PreferenceForm(form_data, instance=preferences)
         preferences = preference_form.save()
 
