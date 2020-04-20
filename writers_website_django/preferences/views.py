@@ -17,6 +17,7 @@ def edit(request):
     elif request.method == 'POST':
         form_data = request.POST.copy()
         form_data['user'] = request.user
+        form_data['user_id'] = request.user.id
         preference_form = PreferenceForm(form_data, instance=preferences)
         preferences = preference_form.save()
 
