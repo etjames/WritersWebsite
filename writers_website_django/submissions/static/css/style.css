@@ -22,11 +22,8 @@ header .menu {
 }
 header .menu a,
 header .menu a:hover,
-header .logout {
-  color: darkblue;
-  padding-right: 1em;
-}
-header .login{
+header .logout,
+header .login {
   color: darkblue;
   padding-right: 1em;
 }
@@ -44,16 +41,10 @@ header .menu a.reviews:before {
 header .menu a.preferences:before {
   content: "\f013";
 }
-header .logout {
-  position: fixed;
-  right: 0;
-  top: 2em;
-  padding: 1em;
-  padding-right: 2em;
-}
+header .logout,
 header .login {
   position: fixed;
-  right: 100;
+  right: 0;
   top: 2em;
   padding: 1em;
   padding-right: 2em;
