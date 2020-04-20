@@ -1,3 +1,35 @@
-<header>The Writer's Website</header>
-{% block content %}{% endblock %}
-<footer>...</footer>
+{% load static %}
+<html>
+  <head>
+    <title>{% block title %}{% endblock %}</title>
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"
+    />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <script src="https://kit.fontawesome.com/4465c8504d.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>The Writer's Website</h1>
+      <div class="menu">
+        <a class="submissions" href="{% url 'submissions:index' %}">Submissions</a>
+        <!-- TODO: add main page for reviews-->
+        <a class="reviews" href="{% url 'reviews:list' %}">Reviews</a>
+        <a class="preferences" href="{% url 'user_preferences:edit' %}">Preferences</a>
+      </div>
+      <div>
+        <a class="logout" href="{% url 'logout' %}">Log Out</a>
+      </div>
+    </header>
+    <div class="content">
+      {% block content %}{% endblock %}
+    </div>
+    <footer>Share some writings - Share your opinions</footer>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+body {
+  margin: 1em;
+  padding-bottom: 1em;
+}
+
+header,
+footer {
+  position: fixed;
+  width: 100%;
+  background-color: lightblue;
+  left: 0;
+  padding-left: 0.5em;
+}
+header {
+  top: 0;
+}
+header .menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 1em;
+}
+header .menu a,
+header .menu a:hover,
+header .logout {
+  color: darkblue;
+  padding-right: 1em;
+}
+header .menu a:before {
+  font-family: "FontAwesome";
+  padding-right: 0.5em;
+}
+header .menu a.submissions:before {
+  content: "\f303";
+}
+header .menu a.reviews:before {
+  content: "\f5da";
+}
+header .menu a.preferences:before {
+  content: "\f013";
+}
+header .logout {
+  position: fixed;
+  right: 0;
+  top: 2em;
+  padding: 1em;
+  padding-right: 2em;
+}
+header .logout:after {
+  font-family: "FontAwesome";
+  padding-left: 0.5em;
+  content: "\f2f5";
+}
+.content {
+  padding-top: 70px;
+}
+
+footer {
+  bottom: 0;
+}
+
+form label {
+  padding-top: 0.5em;
+  display: block;
+}
+
+form input,
+form select,
+form textarea {
+  width: 300px;
+}
+form textarea[name="content"] {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.actions {
+  padding-top: 1em;
+}

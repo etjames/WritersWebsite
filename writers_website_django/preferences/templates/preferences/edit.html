@@ -1,6 +1,14 @@
-<form action="{% url 'user_preferences:edit' preferences.id %}" method="post">
+{% extends "base.html" %} {% block content %}
+{% if saved %}
+Successfully Saved!
+{% endif %}
+<form action="{% url 'user_preferences:edit' %}" method="post">
 {% csrf_token %}
 {{ form }}
-<button type="submit">Submit</button>
-<a href="/user_preferences/">Back to Preferences without Updating Changes</a>
+  <div class="actions">
+    <button type="submit">Submit</button>
+    <button onclick="window.history.back()">Cancel</button>
+  </div>
+
 </form>
+{% endblock %}

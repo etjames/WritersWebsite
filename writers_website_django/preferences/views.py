@@ -1,12 +1,27 @@
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import get_object_or_404, render, redirect
 
 from .models import Preference, PreferenceForm
 
 # Create your views here.
 def edit(request):
-    preferences = Preferences.get.filter(user=request.user)
-    preferences = Preference.get(id=1)
-    context = {
-        "preferences": preferences
-    }
-    return render(request, 'user_preferences/edit.html')
+    preferences = Preference.objects.filter(user=request.user).first()
+    if request.method == 'GET':
+        context = {
+            'preferences': preferences,
+            'form': PreferenceForm(instance=preferences),
+        }
+        return render(request, 'preferences/edit.html', context)
+
+    elif request.method == 'POST':
+        form_data = request.POST.copy()
+        form_data['user'] = request.user
+        preference_form = PreferenceForm(form_data, instance=preferences)
+        preferences = preference_form.save()
+
+        context = {
+            'preferences': preferences,
+            'form': PreferenceForm(instance=preferences),
+            'saved': True,
+        }
+
+        return render(request, 'preferences/edit.html', context)

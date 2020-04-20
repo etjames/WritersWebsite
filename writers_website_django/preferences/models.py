@@ -27,3 +27,4 @@ class PreferenceForm(ModelForm):
 	class Meta:
 		model = Preference
 		fields = '__all__'
+		exclude = ['user']

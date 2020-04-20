@@ -1,1 +1,24 @@
-<h1>This is an edit page</h1>
+{% extends "base.html" %} {% block content %}
+<h1>{{ review.submission.title }}</h1>
+<div class='submission_author'>{{ review.submission.author_name }}</div>
+
+The author asks that you read through this and provide feedback below:
+<p>
+	{{ review.submission.message_to_reader}}
+</p>
+
+<h2>{{ review.submission.title }}</h2>
+<p>
+	{{ review.submission.content }}
+</p>
+
+<form action="{% url 'reviews:edit' review.id %}" method="post">
+{% csrf_token %}
+{{ form }}
+  <div class="actions">
+    <button type="submit">Submit</button>
+    <button onclick="window.history.back()">Cancel</button>
+  </div>
+
+</form>
+{% endblock %}

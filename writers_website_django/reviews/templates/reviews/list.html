@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block content %}
+<table>
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Author</th>
+			<th>Link</th>
+		</tr>
+	</thead>
+	<tbody>
+{% for review in reviews %}
+		<tr>
+			<td>{{ review.submission.title }}</td>
+			<td>{{ review.submission.author_name }}</td>
+			<td><a href="{% url 'reviews:edit' review.id %}">Edit</a></td>
+		</tr>
+{% endfor %}
+	</tbody>
+</table>
+{% endblock %}

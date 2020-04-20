@@ -1,8 +1,10 @@
+{% extends "base.html" %} {% block content %}
 <div>
-	<h1>{{ submission.title }}</h1>
+  <h1>{{ submission.title }}</h1>
 
-	<h2>Content</h2>
-	{{ submission.content }}
+  <h2>Content</h2>
+  {{ submission.content }}
 </div>
 <a href="{% url 'submissions:edit' submission.id %}">Edit</a>
 <a href="{% url 'submissions:index' %}">Return to List</a>
+{% endblock %}

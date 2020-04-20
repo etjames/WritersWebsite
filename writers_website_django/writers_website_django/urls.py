@@ -18,13 +18,18 @@ from django.urls import include, path
 
 from submissions import views
 
+from django.conf.urls import url
+from submissions import views as web_views
+
 urlpatterns = [
 	# Where does the homepage go
-	path('', views.index),
-
+	path('', views.login),
 	path('submissions/', include('submissions.urls')),
     path('preferences/', include('preferences.urls')),
     path('reviews/', include('reviews.urls')),
+    url(r'^signup/$', web_views.signup, name='signup'),
+    url(r'^login/$', views.login, name='login'),
+    url(r'^logout/$', views.logout, name='logout'),
     path('admin/', admin.site.urls)
     
 ]

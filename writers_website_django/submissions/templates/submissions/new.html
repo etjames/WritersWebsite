@@ -1,5 +1,9 @@
+{% extends "base.html" %} {% block content %}
 <form action="{% url 'submissions:new' %}" method="post">
-{% csrf_token %}
-{{ form }}
-<button type="submit">Submit</button>
+  {% csrf_token %} {{ form }}
+  <div class="actions">
+    <button type="submit">Submit</button>
+    <button onclick="window.history.back();">Cancel</button>
+  </div>
 </form>
+{% endblock %}

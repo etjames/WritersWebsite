@@ -54,3 +54,4 @@ class SubmissionForm(ModelForm):
 		model = Submission
 		# fields = ['author', 'title', 'content', 'review_time', 'message_to_reader']
 		fields = '__all__'
+		exclude = ['author']

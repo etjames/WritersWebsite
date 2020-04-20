@@ -14,11 +14,7 @@ def signup(request):
         form = UserCreationForm(request.POST)
         if form.is_valid():
             form.save()
-            username = form.cleaned_data.get('username')
-            raw_password = form.cleaned_data.get('password1')
-            user = authenticate(username=username, password=raw_password)
-            login(request, user)
-            return redirect('/')
+            return redirect('/login')
     else:
         form = UserCreationForm()
     return render(request, 'pages/signup.html', {'form': form})
@@ -92,8 +88,12 @@ def new(request):
         return render(request, 'submissions/new.html', context)
 
     elif request.method == 'POST':
-        submission_form = SubmissionForm(request.POST)
-        submission = submission_form.save()
+        form_data = request.POST.copy()
+        form_data['author'] = request.user
+        submission_form = SubmissionForm(form_data)
+        submission = submission_form.save(commit=False)
+        submission.author = request.user
+        submission.save()
 
         context = {
             'submission': submission,
