@@ -25,7 +25,7 @@ class Theme(models.Model):
 
 class Submission(models.Model):
 	# info about the submission
-	author_name = models.CharField(max_length=128)
+	author_name = models.CharField(max_length=128, help_text= "You can write Anonymous, or a name/pseudonym if wanted")
 	title = models.CharField(max_length=128)
 	content = models.TextField()
 
@@ -42,9 +42,9 @@ class Submission(models.Model):
 
 	message_to_reader = models.TextField()
 
-	genre = models.ForeignKey(Genre, on_delete=models.CASCADE, default=1)
-	writing_type = models.ForeignKey(WritingType, on_delete=models.CASCADE, default=1)
-	theme = models.ForeignKey(Theme, on_delete=models.CASCADE, default=1)
+	genre = models.ForeignKey(Genre, on_delete=models.CASCADE)
+	writing_type = models.ForeignKey(WritingType, on_delete=models.CASCADE)
+	theme = models.ForeignKey(Theme, on_delete=models.CASCADE)
 
 	author = models.ForeignKey(User, on_delete=models.CASCADE)
 
