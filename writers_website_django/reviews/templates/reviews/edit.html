@@ -4,12 +4,12 @@
 
 The author asks that you read through this and provide feedback below:
 <p>
-	{{ review.submission.message_to_reader}}
+	{{ review.submission.message_to_reader | linebreaks }}
 </p>
 
 <h2>{{ review.submission.title }}</h2>
 <p>
-	{{ review.submission.content }}
+	{{ review.submission.content | linebreaks }}
 </p>
 
 <form action="{% url 'reviews:edit' review.id %}" method="post">
