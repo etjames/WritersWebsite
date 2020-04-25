@@ -3,7 +3,7 @@
   <h1>{{ submission.title }}</h1>
 
   <h2>Content</h2>
-  {{ submission.content }}
+  {{ submission.content | linebreaks}}
 </div>
 <a href="{% url 'submissions:edit' submission.id %}">Edit</a>
 <a href="{% url 'submissions:index' %}">Return to List</a>
