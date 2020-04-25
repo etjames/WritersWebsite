@@ -1,6 +1,7 @@
 from django.shortcuts import get_object_or_404, render, redirect
 
 from .models import Submission, SubmissionForm
+from reviews.models import Review
 
 from django.contrib import auth
 from django.contrib.auth import login, authenticate
@@ -74,8 +75,10 @@ def detail(request, submission_id):
         return redirect('/login')
     else:
         submission = get_object_or_404(Submission, pk=submission_id)
+        reviews = Review.objects.filter(submission=submission)
         context = {
             'submission': submission,
+            'reviews': reviews
         }
         return render(request, 'submissions/detail.html', context)
 

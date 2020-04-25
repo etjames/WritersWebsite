@@ -4,6 +4,17 @@
 
   <h2>Content</h2>
   {{ submission.content | linebreaks}}
+
+  <hr/>
+
+  <h3>Feedback</h3> 
+  {% for review in reviews %}
+    <hr/>
+    <div>
+      {{ review.response | linebreaks }}
+    </div>
+  {% endfor %} 
+
 </div>
 <a href="{% url 'submissions:edit' submission.id %}">Edit</a>
 <a href="{% url 'submissions:index' %}">Return to List</a>
