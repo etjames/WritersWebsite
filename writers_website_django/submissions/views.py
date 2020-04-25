@@ -21,6 +21,9 @@ def prompts(request):
 def anonymousfeedback(request):
     return render(request, 'pages/anonymousfeedback.html')
 
+def rules(request):
+    return render(request, 'pages/rules.html')
+
 
 def signup(request):
     if request.method == 'POST':

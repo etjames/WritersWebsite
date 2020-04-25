@@ -33,6 +33,7 @@ urlpatterns = [
     url(r'^home/$', views.home, name='home'),
     url(r'^about/$', views.about, name='about'),
     url(r'^prompts/$', views.prompts, name='prompts'),
+    url(r'^rules/$', views.rules, name='rules'),
     url(r'^anonymousfeedback/$', views.anonymousfeedback, name='anonymousfeedback'),
     path('admin/', admin.site.urls)
     
